@@ -85,14 +85,14 @@ function RenderTasks() {
         EditButton.onclick = function () {
             if (TaskInput.readOnly) {
                 TaskInput.readOnly = false;
-                EditButton.textContent = 'Save';
+                EditButton.innerHTML = '<i class="fa-solid fa-save fa-lg"></i>';
                 TaskInput.focus();
             } else {
                 const newTaskValue = TaskInput.value.trim();
                 if (newTaskValue !== '') {
                     TaskInput.readOnly = true;
                     EditTask(i, newTaskValue);
-                    EditButton.textContent = 'Edit';
+                    EditButton.innerHTML = '<i class="fa-solid fa-pen-to-square fa-lg"></i>';
                 } else {
                     alert('Please enter a task');
                 }
