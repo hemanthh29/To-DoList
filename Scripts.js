@@ -84,9 +84,14 @@ function RenderTasks() {
         EditButton.appendChild(EditButtonIcon);
         EditButton.onclick = function () {
             if (TaskInput.readOnly) {
-                TaskInput.readOnly = false;
-                EditButton.innerHTML = '<i class="fa-solid fa-save fa-lg"></i>';
-                TaskInput.focus();
+                if (task.completed) {
+                    alert('Cannot edit completed task');
+                }
+                else {
+                    TaskInput.readOnly = false;
+                    EditButton.innerHTML = '<i class="fa-solid fa-save fa-lg"></i>';
+                    TaskInput.focus();
+                }
             } else {
                 const newTaskValue = TaskInput.value.trim();
                 if (newTaskValue !== '') {
