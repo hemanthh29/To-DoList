@@ -44,12 +44,18 @@ Check or uncheck the checkbox to mark a task as completed or incomplete.
 Screenshots:
 ![Screenshot](image.png)
 
-Future Improvements
+Future Improvements:
+
 Task Prioritization: Add features for task priorities.
+
 Due Dates: Implement functionality to set and display due dates.
+
 Task Categories: Introduce categories or tags for better organization.
+
 Enhanced UI/UX: Improve with advanced styling and animations.
+
 Notifications: Integrate reminders for upcoming due dates.
+
 User Authentication: Allow multiple users with personalized task lists.
 
 Built by[Hemanth]
