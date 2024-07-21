@@ -3,17 +3,28 @@ To-Do List App
 Overview
 The To-Do List App is a simple web application that allows users to manage their tasks efficiently. Users can add, edit, delete, and mark tasks as completed. The app uses HTML, CSS, and JavaScript, with local storage to save tasks so they persist even after refreshing the page.
 
-Features
+Features:
+
 Add Tasks: Enter a task and add it to the list.
+
 Edit Tasks: Modify existing tasks with a simple edit mode.
+
 Delete Tasks: Remove tasks from the list.
+
 Toggle Completion: Mark tasks as completed or incomplete.
+
 Persistent Storage: Tasks are saved in the browser’s local storage.
-Technologies Used
+
+Technologies Used:
+
 HTML: Provides the structure of the application.
+
 CSS: Styles the application and ensures a responsive design.
+
 JavaScript: Implements the functionality for managing tasks.
+
 Bootstrap: For responsive layout adjustments.
+
 Font Awesome: For icons used in buttons and tasks.
 
 Installation
